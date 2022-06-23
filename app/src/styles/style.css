@@ -41,6 +41,10 @@ li {
     display: flex;
 }
 
+.add-flex-column {
+    flex-direction: column;
+}
+
 .add-JC-space-between {
     justify-content: space-between;
 }
@@ -152,7 +156,7 @@ header {
 
 /* ======================================================================================== SECOND SECTION */
 .second-section {
-    padding: 10q0px 0;
+    padding: 100px 0;
 }
 
 .boxes-container {
@@ -185,7 +189,8 @@ header {
 /* ======================================================================================== THIRD SECTION */
 .third-section {
     background-color: var(--third-section-bg-color);
-    padding: 100px 0;
+    padding-top: 100px;
+    padding-bottom: 75px;
 }
 
 .third-section h2 {
@@ -199,6 +204,6 @@ header {
     color: var(--upper-section-color);
     font-weight: bold;
     font-size: 20px;
-    border: 5px red solid;
-    
+    width: 100%;
+    margin-left: -22px;
 }
