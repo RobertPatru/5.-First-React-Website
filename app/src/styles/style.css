@@ -207,3 +207,34 @@ header {
     width: 100%;
     margin-left: -22px;
 }
+
+
+
+/* ======================================================================================== THIRD SECTION */
+.container-text-forth-sect {
+    background-color: var(--blue-color);
+    border-radius: 10px;
+    width: 1000px;
+    height: 150px;
+
+    padding: 0 50px;
+    margin: 100px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-text-forth-sect h3 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.container-text-forth-sect p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.button-two {
+    border: 2px white solid;
+}
