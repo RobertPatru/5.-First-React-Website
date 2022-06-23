@@ -1,0 +1,204 @@
+:root {
+    --upper-section-color: rgba(31, 41, 55, 1);
+    --third-section-bg-color: rgba(229, 231, 235, 1);
+    --blue-color: rgba(59, 130, 246, 1);
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#root {
+    width: 100%;
+}
+
+
+li {
+    list-style: none;
+}
+
+.default-sections-styles {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-everything-in-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-flex {
+    display: flex;
+}
+
+.add-JC-space-between {
+    justify-content: space-between;
+}
+
+.add-ALI-center {
+    align-items: center;
+}
+
+.max-width {
+    max-width: 1200px;
+}
+
+.margin-y-3opx {
+    margin: 30px 0;
+}
+
+.color-white {
+    color: white;
+}
+
+.color-gray {
+    color: gray;
+}
+
+.bg-color-blue {
+    background-color: var(--blue-color);
+}
+
+.hover:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-end {
+    text-align: end;
+}
+
+/* ======================================================================================== UPPER SECTION */
+.uppderSection {
+    background-color: var(--upper-section-color);
+}
+
+header {
+    padding: 20px 0;
+}
+
+.sub-header {
+    padding: 100px 0;
+}
+
+.sub-header-container-left {
+    margin-right: 50px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.list {
+    max-width: 500px;
+}
+
+.list-item {
+    color: gray;
+    font-size: 20px;
+}
+
+.list-item:nth-child(2) {
+    margin: 0 20px;
+}
+
+
+.placeholder-img {
+    height: 300px;
+    width: 600px;
+}
+
+.btn {
+    /* width: 10px;
+    height: 35px; */
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+
+.sub-header-container-left h1 {
+    font-size: 50px;
+}
+
+.sub-header-container-left p {
+    font-size: 20px;
+}
+
+
+
+/* ======================================================================================== SECOND SECTION */
+.second-section {
+    padding: 10q0px 0;
+}
+
+.boxes-container {
+    max-width: 1000px;
+}
+
+.box-container {
+    margin: 0 10px;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+
+    border: 4px var(--blue-color) solid;
+    border-radius: 10px;
+
+    margin-bottom: 10px;
+}
+
+.second-section .max-width h1 {
+    color: var(--upper-section-color);
+    margin-bottom: 50px;
+
+    font-weight: 900;
+}
+
+
+
+/* ======================================================================================== THIRD SECTION */
+.third-section {
+    background-color: var(--third-section-bg-color);
+    padding: 100px 0;
+}
+
+.third-section h2 {
+    color: var(--upper-section-color);
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.third-section span {
+    color: var(--upper-section-color);
+    font-weight: bold;
+    font-size: 20px;
+    border: 5px red solid;
+    
+}
