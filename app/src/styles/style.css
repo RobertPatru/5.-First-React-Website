@@ -238,3 +238,20 @@ header {
 .button-two {
     border: 2px white solid;
 }
+
+
+
+/* ======================================================================================== THIRD SECTION */
+.fifith-section,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--upper-section-color);
+}
+
+footer {
+    height: 100px;
+    font-size: 20px;
+}
